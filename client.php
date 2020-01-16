@@ -1,3 +1,13 @@
+<?php
+session_start();
+if($_SESSION['client'])
+{
+    $account = $_SESSION['client'];
+}
+else{
+    header('location:login');
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -66,7 +76,7 @@
 
 					<!-- Dashboard Headline -->
 					<div class="dashboard-headline">
-						<h1>Howdy, Tom!</h1>
+						<h1>Howdy, <?=$account[0]?>!</h1>
 						<span>We are glad to see you!</span>
 
 						<!-- Breadcrumbs -->
