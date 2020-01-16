@@ -50,7 +50,7 @@
             <div class="row">
   					<a href="#" class="forgot-password col-xl-7">Forgot Password?</a>
             <div class="checkbox col-xl-5">
-              <input type="checkbox" id="two-step" checked>
+              <input type="checkbox" id="two-step">
               <label for="two-step"><span class="checkbox-icon"></span> Keep me signed in</label>
             </div>
           </div>
