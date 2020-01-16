@@ -269,7 +269,7 @@
 								<div class="user-details">
 									<div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div>
 									<div class="user-name">
-										Tom Smith <span>Freelancer</span>
+										<?=$account[0]?> <span>Client</span>
 									</div>
 								</div>
 
@@ -283,9 +283,9 @@
 						</div>
 
 						<ul class="user-menu-small-nav">
-							<li><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
-							<li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
-							<li><a href="index-logged-out.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
+							<li><a href="client"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
+							<li><a href="settings"><i class="icon-material-outline-settings"></i> Settings</a></li>
+							<li><a href="logout"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
 						</ul>
 
 						</div>

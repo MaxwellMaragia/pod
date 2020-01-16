@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdff245d-8324-413d-9b2c-639134a57198" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/functions/actions.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/functions/db.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/functions/user_account.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/logout.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" afterPath="$PROJECT_DIR$/checkout.php" />
+      <change beforePath="$PROJECT_DIR$/client.php" afterPath="$PROJECT_DIR$/client.php" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
       <change beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user_account.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/user_account.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="-319">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/login.php">
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="265" column="53" lean-forward="true" selection-start-line="265" selection-start-column="53" selection-end-line="265" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -63,28 +81,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MysqliDb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/MysqliDb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1651" column="0" lean-forward="false" selection-start-line="1651" selection-start-column="0" selection-end-line="1651" selection-end-column="0" />
-              <folding>
-                <marker date="1570634364000" expanded="true" signature="25432:25444" ph="DELETE FROM ${$table}... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,6 +146,9 @@
         <option value="$PROJECT_DIR$/functions/user_account.php" />
         <option value="$PROJECT_DIR$/functions/db.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/client.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/logout.php" />
       </list>
     </option>
   </component>
@@ -190,11 +189,6 @@
             <path>
               <item name="pod" type="b2602c69:ProjectViewProjectNode" />
               <item name="pod" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pod" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="functions" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pod" type="b2602c69:ProjectViewProjectNode" />
@@ -247,12 +241,12 @@
       <workItem from="1578776874121" duration="2438000" />
       <workItem from="1578859626266" duration="3659000" />
       <workItem from="1578977789121" duration="2830000" />
-      <workItem from="1579163428905" duration="2031000" />
+      <workItem from="1579163428905" duration="3892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10958000" />
+    <option name="totallyTimeSpent" value="12819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -333,9 +327,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28067">
           <caret line="1651" column="0" lean-forward="false" selection-start-line="1651" selection-start-column="0" selection-end-line="1651" selection-end-column="0" />
-          <folding>
-            <marker date="1570634364000" expanded="true" signature="25432:25444" ph="DELETE FROM ${$table}... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -399,9 +391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28067">
           <caret line="1651" column="0" lean-forward="false" selection-start-line="1651" selection-start-column="0" selection-end-line="1651" selection-end-column="0" />
-          <folding>
-            <marker date="1570634364000" expanded="true" signature="25432:25444" ph="DELETE FROM ${$table}... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -471,9 +461,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8772">
           <caret line="516" column="21" lean-forward="true" selection-start-line="516" selection-start-column="21" selection-end-line="516" selection-end-column="21" />
-          <folding>
-            <marker date="1570634364000" expanded="true" signature="25432:25444" ph="DELETE FROM ${$table}... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -620,9 +608,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1651" column="0" lean-forward="false" selection-start-line="1651" selection-start-column="0" selection-end-line="1651" selection-end-column="0" />
-          <folding>
-            <marker date="1570634364000" expanded="true" signature="25432:25444" ph="DELETE FROM ${$table}... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,8 +647,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="-319">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="265" column="53" lean-forward="true" selection-start-line="265" selection-start-column="53" selection-end-line="265" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
