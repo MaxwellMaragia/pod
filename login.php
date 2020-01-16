@@ -47,7 +47,13 @@
   						<i class="icon-material-outline-lock"></i>
   						<input type="password" class="input-text with-border" name="password" id="password" placeholder="Password" required/>
   					</div>
-  					<a href="#" class="forgot-password">Forgot Password?</a>
+            <div class="row">
+  					<a href="#" class="forgot-password col-xl-7">Forgot Password?</a>
+            <div class="checkbox col-xl-5">
+              <input type="checkbox" id="two-step" checked>
+              <label for="two-step"><span class="checkbox-icon"></span> Keep me signed in</label>
+            </div>
+          </div>
   				</form>
 
   				<!-- Button -->
