@@ -154,7 +154,7 @@
 							<div class="tabs-content">
 					 <div class="tab active" data-tab-id="1">
 						 <!-- Message Content chat-->
-						 <div class="message-content">
+					<div class="message-content">
 
 
 						 <h4>Client 2347805</h4>
@@ -195,15 +195,15 @@
 							 <div class="clearfix"></div>
 						 </div>
 						 </div>
-						 <!-- Message Content Inner / End -->
+						 			<!-- Message Content Inner / End -->
 
-						 <!-- Reply Area -->
-						 <div class="message-reply">
-						 <textarea cols="1" rows="1" placeholder="Your Message" data-autoresize></textarea>
-						 <button class="button ripple-effect">Send</button>
-						 </div>
+						     <!-- Reply Area -->
+						     <div class="message-reply">
+						     <textarea cols="1" rows="1" placeholder="Your Message" data-autoresize></textarea>
+						     <button class="button ripple-effect">Send</button>
+						     </div>
 
-						 </div>
+				</div>
 						 <!-- Message Content -->
 					 </div>
 

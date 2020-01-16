@@ -85,7 +85,16 @@
 					</div>
 
 					<div class="payment-tab-content">
-						<p>Recieve auto billing to our mpesa via STK push to the number <strong>0790909090</strong></p>
+						<p>Recieve auto billing to our mpesa via STK push to the number below or enter another number</p>
+							<span class="row container">
+								<input class="col-xl-2" type="text" value="07121212121" placeholder="mpesa phone number">
+								<div class="checkbox margin-top-1 col-xl-5">
+									<input type="checkbox" id="two-step">
+									<label for="two-step"><span class="checkbox-icon"></span>  I agree to the <a href="#">Terms and Conditions</a> and the <a href="#">Automatic Renewal Terms</a></label>
+								</div>
+							</span>
+
+						<button class="button ripple-effect">Pay</button>
 					</div>
 				</div>
 
@@ -115,11 +124,8 @@
 			<!-- Payment Methods Accordion / End -->
 			<!-- Checkbox -->
 
-			<div class="checkbox margin-top-30">
-				<input type="checkbox" id="two-step">
-				<label for="two-step"><span class="checkbox-icon"></span>  I agree to the <a href="#">Terms and Conditions</a> and the <a href="#">Automatic Renewal Terms</a></label>
-			</div>
-			<a href="order-confirmation.php" class="button big ripple-effect margin-top-40 margin-bottom-65">Proceed Payment</a>
+
+			<!-- <a href="order-confirmation.php" class="button big ripple-effect margin-top-40 margin-bottom-65">Proceed Payment</a> -->
 		</div>
 
 

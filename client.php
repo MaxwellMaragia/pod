@@ -84,11 +84,10 @@
 					<div class="row">
 
 						<!-- Dashboard Box -->
-						<div class="col-xl-8">
+						<div class="col-xl-7">
 							<div class="dashboard-box">
 								<div class="headline">
-									<h3><i class="icon-material-outline-assignment"></i> Orders Waiting activation</h3>
-									<span> Make payment for us to commence on the order.</span>
+									<h3>Orders in progress</h3>
 								</div>
 								<div class="content">
 									<ul class="dashboard-box-list">
@@ -103,7 +102,7 @@
 											</div>
 											<!-- Buttons -->
 											<div class="buttons-to-right">
-												<a href="checkout.php" class="button">Finish Payment</a>
+												<a href="order.php" class="button">View</a>
 											</div>
 										</li>
 										<li>
@@ -154,11 +153,10 @@
 						</div>
 
 						<!-- Dashboard Box -->
-						<div class="col-xl-4">
+						<div class="col-xl-5">
 							<div class="dashboard-box">
 								<div class="headline">
-									<h3><i class="icon-material-baseline-notifications-none"></i> Notifications</h3>
-									<span>5 0f 33</span>
+									<h3> Notifications</h3>
 									<button class="mark-as-read ripple-effect-dark" data-tippy-placement="left" title="Mark all as read">
 											<i class="icon-feather-check-square"></i>
 									</button>

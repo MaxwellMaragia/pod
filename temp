@@ -20,12 +20,17 @@
   <div class="clearfix"></div>
   <!-- Header Container / End -->
 
+  <!-- Titlebar
+  ================================================== -->
+  <div id="titlebar" class="gradient">
+
+  </div>
 
 
   <!-- Page Content
   ================================================== -->
   <div class="container">
-  	<div class="row" style="margin-top:45px">
+  	<div class="row">
   		<div class="col-xl-5 offset-xl-3">
 
 
@@ -33,14 +38,14 @@
   				<!-- Welcome Text -->
   				<div class="welcome-text">
   					<h3>Welcome back!</h3>
-  					<span>Don't have an account? <a href="register.php">Swift Sign Up!</a></span>
+  					<span>Don't have an account? <a href="register.php">Sign Up!</a></span>
   				</div>
 
   				<!-- Form -->
   				<form method="post" id="login-form">
   					<div class="input-with-icon-left">
   						<i class="icon-material-baseline-mail-outline"></i>
-  						<input type="text" class="input-text with-border" name="emailaddress" id="emailaddress" placeholder="Email Address/phone number" required/>
+  						<input type="text" class="input-text with-border" name="emailaddress" id="emailaddress" placeholder="Email Address" required/>
   					</div>
 
   					<div class="input-with-icon-left">
@@ -54,8 +59,11 @@
   				<button class="button full-width button-sliding-icon ripple-effect margin-top-10" type="submit" form="login-form">Log In <i class="icon-material-outline-arrow-right-alt"></i></button>
 
   				<!-- Social Login -->
-  				<!-- <div class="social-login-separator"><span>or</span></div> -->
-
+  				<div class="social-login-separator"><span>or</span></div>
+  				<div class="social-login-buttons">
+  					<button class="facebook-login ripple-effect"><i class="icon-brand-facebook-f"></i> Log In via Facebook</button>
+  					<button class="google-login ripple-effect"><i class="icon-brand-google-plus-g"></i> Log In via Google+</button>
+  				</div>
   			</div>
 
   		</div>
@@ -65,7 +73,10 @@
 
 <div class="margin-top-80"></div>
 
-
+<!-- Footer
+================================================== -->
+<?php include_once('includes/footer.php')?>
+<!-- Footer / End -->
 
 </div>
 <!-- Wrapper / End -->
