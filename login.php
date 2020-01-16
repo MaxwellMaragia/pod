@@ -1,3 +1,10 @@
+<?php
+session_start();
+include_once 'functions/actions.php';
+
+
+
+?>
 <!doctype html>
 <html lang="en">
 <head>

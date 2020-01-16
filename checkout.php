@@ -1,3 +1,12 @@
+<?php
+session_start();
+if(!$_SESSION['client_login']){
+    header('location:login');
+}
+
+include_once 'includes/config.php';
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
