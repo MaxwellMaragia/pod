@@ -307,7 +307,7 @@ img { max-width: 100%; }
 	font-size: 16px;
 	height: 82px;
 	background: white;
-	border-bottom: 1px solid #f0f0f0;
+	border-bottom: 7px solid #033155;
 }
 
 #header .container,
@@ -8325,7 +8325,7 @@ input:checked + .switch-button:before {
 
 /* Boxed Widget */
 .boxed-widget {
-	background-color: #f9f9f9;
+	background-color: white;
 	padding: 0;
 	transform: translate3d(0,0,0);
 	z-index: 90;
@@ -13485,13 +13485,13 @@ a.dashboard-responsive-nav-trigger { display: none; }
 	padding: 20px 30px;
 	border-bottom: 1px solid #e4e4e4;
 	position: relative;
-	background-color: #F0F0F0;
+	background-color: #033155;
 }
 
 .dashboard-box .headline h3 {
 	font-size: 16px;
 	font-weight: 600;
-	color:#033155;
+	color:white;
 	line-height: 26px;
 }
 
@@ -14886,7 +14886,7 @@ ul.dashboard-box-list > li:hover {
 		color: #666;
 		font-size: 16px;
 		line-height: 27px;
-		background-color: #fff;
+		background-color: #f0f0f0;
 	}
 
 	body.gray { background-color: #fbfbfb; }

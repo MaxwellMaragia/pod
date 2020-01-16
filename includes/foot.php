@@ -4,16 +4,16 @@
 <script src="js/tippy.all.min.js"></script>
 <script src="js/simplebar.min.js"></script>
 <script src="js/bootstrap-slider.min.js"></script>
-<!-- <script src="js/bootstrap-select.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
 <script src="js/snackbar.js"></script>
 <script src="js/clipboard.min.js"></script>
 <script src="js/counterup.min.js"></script>
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/slick.min.js"></script>
-<script src="js/custom.js"></script> -->
+<script src="js/custom.js"></script>
 
 <!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
-<!-- <script>
+<script>
 // Snackbar for user status switcher
 $('#snackbar-user-status label').click(function() {
 	Snackbar.show({
@@ -26,4 +26,4 @@ $('#snackbar-user-status label').click(function() {
 		backgroundColor: '#383838'
 	});
 });
-</script> -->
+</script>
