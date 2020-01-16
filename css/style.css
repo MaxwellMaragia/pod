@@ -307,7 +307,8 @@ img { max-width: 100%; }
 	font-size: 16px;
 	height: 82px;
 	background: white;
-	border-bottom: 7px solid #033155;
+	box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.12);
+	border-bottom: 1px solid #E0E0E0;
 }
 
 #header .container,

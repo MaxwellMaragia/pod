@@ -55,7 +55,7 @@
 <!-- Page Content
 ================================================== -->
 <div class="container">
-	<div class="row" style="margin-top:">
+	<div class="row">
 
 
 
@@ -77,11 +77,8 @@
 					</div>
 
 
-
-
-
 					<!-- Row -->
-					<div class="row">
+					<div class="row" style="margin-top:-20px">
 
 						<!-- Dashboard Box -->
 						<div class="col-xl-7">

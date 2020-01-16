@@ -44,15 +44,14 @@
               <!-- <h5>About the Employer</h5> -->
 
 							<div class="freelancer-details-list">
-							<ul>
-                                <li>Pages/slides <strong>12</strong></li>
-                                <li>format <strong>MLA</strong></li>
-								<li>Order Type <strong> Essay</strong></li>
-								<li>Subject <strong>History & humanities</strong></li>
-								<li>You get <strong>Ksh 600</strong></li>
+								<ul>
+									<li>Type <strong>Essay</strong></li>
+	                <li>Volume <strong>6 pages</strong></li>
+									<li>Subject <strong> IT</strong></li>
+									<li>Price <strong>Ksh 600</strong></li>
+									<li>Deadline <strong>2/12/2020 18:30 </strong></li>
 
-
-							</ul>
+								</ul>
 						</div>
 						</div>
 					</div>
