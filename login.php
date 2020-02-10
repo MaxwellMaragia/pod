@@ -97,7 +97,7 @@ if(isset($_POST['login']))
   				<!-- Welcome Text -->
   				<div class="welcome-text">
   					<h3>Welcome back!</h3>
-  					<span>Don't have an account? <a href="register.php">Swift Sign Up!</a></span>
+  					<span>Don't have an account? <a href="register">Swift Sign Up!</a></span>
   				</div>
 
   				<!-- Form -->
